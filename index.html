@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime & Games Action Figures Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #001f3f; /* Dark blue background */
+            color: white; /* White text */
+        }
+
+        header {
+            background-image: url('RBACKG.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 150px 0; 
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #ffffff; 
+        }
+
+        .card {
+            margin-bottom: 20px;
+            background-color: #003366; /* Dark blue for card background */
+            color: white; /* White text inside card */
+            border: none; /* No border for cards */
+        }
+
+        .card-img-top {
+            height: 300px; /* Set a height for images */
+            object-fit: cover; /* shows and makes images cover the area */
+        }
+
+        footer {
+            background-color: #00274d; 
+            color: white;
+            padding: 10px 0;
+        }
+
+        .btn-primary {
+            background-color: #007bff; /* Bootstrap primary color */
+            border: none; /* Remove border */
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3; 
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem; /*
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Anime & Games Action Figures Shop!</h1>
+        <p>Your ultimate destination for collectible action figures from your favorite series!</p>
+    </header>
+    <a href="home.html">HOME</a>
+    <a href="aboutus.html">ABOUT US</a>
+    <a href="contactus.html">CONTACT US</a>
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="products" class="container mt-5">
+        <h2>Our Action Figures</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="REAL Guts.jpg" class="card-img-top" alt="Action Figure 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Berserk – Guts Statue from Prime 1 Studio</h5>
+                        <p class="card-text">Detailed action figure of the popular anime character Guts, complete with accessories.</p>
+                        <p><strong>Price: $30</strong></p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Yhwach.webp" height="495" class="card-img-top" alt="Action Figure 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Bleach: Yhwach Bleach Resin Statue</h5>
+                        <p class="card-text">Collectible figure from the beloved series Bleach.</p>
+                        <p><strong>Price: $42</strong></p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Elden BOi.jpg" class="card-img-top" alt="Action Figure 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Limited Edition Anime Figure</h5>
+                        <p class="card-text">Exclusive Elden Ring figure, perfect for collectors.</p>
+                        <p><strong>Price: $50</strong></p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="text-center mt-5">
+        <p>&copy; 2024 Anime & Games Action Figures Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
